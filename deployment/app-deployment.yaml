@@ -16,6 +16,7 @@ spec:
     spec:
       containers:
       - name: node-app
+        #image: kiyange26773/node-hello-app:latest
         image: kiyange26773/node-hello-app:latest
         ports:
         - containerPort: 8080
